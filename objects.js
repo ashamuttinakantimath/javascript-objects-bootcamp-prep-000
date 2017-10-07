@@ -16,7 +16,7 @@ console.log(destructivelyUpdateObjectWithKeyAndValue(playlist, 'flour', '3 cups'
 function updatePlaylist (obj,key,value){
     obj[key]=value
     return obj
-    
+delete playlist.hhhh
 }
 
 console.log(updatePlaylist(playlist,'hhhh','rrrr'))
