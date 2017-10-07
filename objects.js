@@ -4,15 +4,15 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
 
   return obj
 }
+var playlist ={aaa:'uuu',
+kkk:'oooo',
+pppp:'yyyyy'
+}
 
 const recipe = { eggs: 3 }
 
 console.log(destructivelyUpdateObjectWithKeyAndValue(playlist, 'flour', '3 cups'))
 
-var playlist ={aaa:'uuu',
-kkk:'oooo',
-pppp:'yyyyy'
-}
 function updatePlaylist (obj,key,value){
    return obj[key]=value
 }
