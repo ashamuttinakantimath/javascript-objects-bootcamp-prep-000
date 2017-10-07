@@ -14,7 +14,9 @@ const recipe = { eggs: 3 }
 console.log(destructivelyUpdateObjectWithKeyAndValue(playlist, 'flour', '3 cups'))
 
 function updatePlaylist (obj,key,value){
-   return obj[key]=value
+    obj[key]=value
+    return obj
+    
 }
 
 console.log(updatePlaylist(playlist,'hhhh','rrrr'))
